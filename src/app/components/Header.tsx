@@ -12,46 +12,46 @@ export function Header () {
         </div>
         <nav className="flex items-center gap-8">
           <DropdownMenu.Root>
-            <DropdownMenu.Trigger>
+            <DropdownMenu.Trigger className="outline-none">
               <Button variant="soft" className="flex items-center gap-2 text-gray-500 font-medium p-2">
                 Features
                 <DropdownMenu.TriggerIcon />
               </Button>
             </DropdownMenu.Trigger>
-            <DropdownMenu.Content>
-              <DropdownMenu.Item shortcut="⌘ E">Edit</DropdownMenu.Item>
-              <DropdownMenu.Item shortcut="⌘ D">Duplicate</DropdownMenu.Item>
+            <DropdownMenu.Content className="bg-gray-100 p-2 rounded-md text-zinc-500">
+              <DropdownMenu.Item shortcut="⌘ E" className="flex gap-2 outline-none">Edit</DropdownMenu.Item>
+              <DropdownMenu.Item shortcut="⌘ D" className="flex gap-2 outline-none">Duplicate</DropdownMenu.Item>
               <DropdownMenu.Separator />
-              <DropdownMenu.Item shortcut="⌘ N">Archive</DropdownMenu.Item>
+              <DropdownMenu.Item shortcut="⌘ N" className="flex gap-2 outline-none">Archive</DropdownMenu.Item>
 
               <DropdownMenu.Separator />
-              <DropdownMenu.Item>Share</DropdownMenu.Item>
-              <DropdownMenu.Item>Add to favorites</DropdownMenu.Item>
+              <DropdownMenu.Item className="flex gap-2 outline-none">Share</DropdownMenu.Item>
+              <DropdownMenu.Item className="flex gap-2 outline-none">Add to favorites</DropdownMenu.Item>
               <DropdownMenu.Separator />
-              <DropdownMenu.Item shortcut="⌘ ⌫" color="red">
+              <DropdownMenu.Item shortcut="⌘ ⌫" className="flex gap-2 outline-none">
                 Delete
               </DropdownMenu.Item>
             </DropdownMenu.Content>
           </DropdownMenu.Root>
 
           <DropdownMenu.Root>
-            <DropdownMenu.Trigger>
+            <DropdownMenu.Trigger className="outline-none">
               <Button variant="soft" className="flex items-center gap-2 text-gray-500 font-medium p-2">
                 Options
                 <DropdownMenu.TriggerIcon />
               </Button>
             </DropdownMenu.Trigger>
-            <DropdownMenu.Content>
-              <DropdownMenu.Item shortcut="⌘ E">Edit</DropdownMenu.Item>
-              <DropdownMenu.Item shortcut="⌘ D">Duplicate</DropdownMenu.Item>
+            <DropdownMenu.Content className="bg-gray-100 p-2 rounded-md text-zinc-500">
+              <DropdownMenu.Item shortcut="⌘ E" className="flex gap-2 outline-none">Edit</DropdownMenu.Item>
+              <DropdownMenu.Item shortcut="⌘ D" className="flex gap-2 outline-none">Duplicate</DropdownMenu.Item>
               <DropdownMenu.Separator />
-              <DropdownMenu.Item shortcut="⌘ N">Archive</DropdownMenu.Item>
+              <DropdownMenu.Item shortcut="⌘ N" className="flex gap-2 outline-none">Archive</DropdownMenu.Item>
 
               <DropdownMenu.Separator />
-              <DropdownMenu.Item>Share</DropdownMenu.Item>
-              <DropdownMenu.Item>Add to favorites</DropdownMenu.Item>
+              <DropdownMenu.Item className="flex gap-2 outline-none">Share</DropdownMenu.Item>
+              <DropdownMenu.Item className="flex gap-2 outline-none">Add to favorites</DropdownMenu.Item>
               <DropdownMenu.Separator />
-              <DropdownMenu.Item shortcut="⌘ ⌫" color="red">
+              <DropdownMenu.Item shortcut="⌘ ⌫"className="flex gap-2 outline-none">
                 Delete
               </DropdownMenu.Item>
             </DropdownMenu.Content>
